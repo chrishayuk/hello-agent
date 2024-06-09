@@ -1,0 +1,3 @@
+tool_name: square_tool, description: squares an integer
+tool_name: add_tool, description: adds 2 integers together and returns the result
+tool_name: multiply_tool, description: multiplies 2 integers together and returns the result

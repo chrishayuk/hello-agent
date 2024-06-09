@@ -1,0 +1,53 @@
+{
+    "tools": [
+      {
+        "name": "square_tool",
+        "description": "Squares an integer",
+        "wasm_file": "./tools/math.wat",
+        "exported_function": "square",
+        "params": [
+          {
+            "name": "a",
+            "type": "int",
+            "description": "The integer to be squared"
+          }
+        ]
+      },
+      {
+        "name": "add_tool",
+        "description": "adds 2 integers",
+        "wasm_file": "./tools/math.wat",
+        "exported_function": "add",
+        "params": [
+          {
+            "name": "a",
+            "type": "int",
+            "description": "The first integer to be added"
+          },
+          {
+            "name": "b",
+            "type": "int",
+            "description": "The second integer to be added"
+          }
+        ]
+      },
+      {
+        "name": "multiply_tool",
+        "description": "multiplies 2 integers",
+        "wasm_file": "./tools/math.wat",
+        "exported_function": "multiply",
+        "params": [
+          {
+            "name": "a",
+            "type": "int",
+            "description": "The first integer to be multiply"
+          },
+          {
+            "name": "b",
+            "type": "int",
+            "description": "The second integer to be multiply"
+          }
+        ]
+      }
+    ]
+  }
